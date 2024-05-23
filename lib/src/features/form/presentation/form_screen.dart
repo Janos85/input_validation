@@ -62,7 +62,7 @@ class FormScreen extends StatelessWidget {
     if (!(input.endsWith(".com") || input.endsWith(".de"))) {
       return 'email must contain ".com" or".de"';
     }
-    {}
+
     return null;
   }
 
